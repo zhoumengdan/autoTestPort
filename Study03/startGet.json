@@ -1,0 +1,13 @@
+[
+  {
+    "description": "这是一个无参的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "headers":{"Content-Type": "text/plain; charset=GBK"},
+      "text": "无参的get请求"
+    }
+  }
+]

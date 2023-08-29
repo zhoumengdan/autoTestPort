@@ -1,0 +1,18 @@
+[
+  {
+    "description": "这是一个有参的get请求",
+    "request": {
+      "uri": "/getparamdemo",
+      "method": "get",
+      "queries": {
+        "name": "zhangsan",
+        "age": "20"
+      }
+    },
+    "response": {
+      "headers":{"Content-Type": "text/plain; charset=GBK"},
+      "text": "张三回来啦！！"
+    }
+  }
+
+]

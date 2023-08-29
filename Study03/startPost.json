@@ -1,0 +1,32 @@
+[
+  {
+    "description": "moco模拟无参post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "headers": {
+        "content-type": "text/plain;charset=utf-8"
+      },
+      "text": "这是一个无参的post请求"
+    }
+  },{
+  "description": "moco模拟有参数post请求",
+  "request": {
+    "uri": "/postparam",
+    "method": "post",
+    "forms": {
+      "name": "zhangsan",
+      "sex": "man"
+    }
+  },
+  "response": {
+    "headers": {
+      "content-type": "text/plain;charset=utf-8"
+    },
+    "text": "张三带着post参数回来了!!"
+  }
+}
+
+]

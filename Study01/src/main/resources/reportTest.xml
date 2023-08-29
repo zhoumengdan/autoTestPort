@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="测试报告生成">
+    <test name="测试报告">
+        <classes>
+            <class name="com.course.testng.extenttest.TestMethod">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.course.testng.extenttest.ExtentTestNgReportListener"/>
+    </listeners>
+
+</suite>

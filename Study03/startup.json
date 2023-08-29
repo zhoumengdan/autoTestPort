@@ -1,0 +1,10 @@
+[
+  {
+    "description": "这个是一个moco的demo",
+    "request":{"uri": "/demo"},
+    "response": {
+      "headers":{"Content-Type": "text/plain; charset=UTF8"},
+      "text": "第一个moco框架demo"}
+  }
+
+]

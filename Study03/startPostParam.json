@@ -1,0 +1,16 @@
+[
+  {
+    "description": "moco模拟有参数post请求",
+    "request": {
+      "uri": "/postparam",
+      "method": "post",
+      "forms": {
+        "name": "zhangsan",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "zhangsan daizhe canshu huilaila!!"
+    }
+  }
+]
